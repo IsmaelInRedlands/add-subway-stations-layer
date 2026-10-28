@@ -1,0 +1,55 @@
+{
+  "version": "0.3",
+  "kind": "app",
+  "generatedAt": "2026-10-28T07:39:48.197Z",
+  "item": {
+    "title": "Add Subway Stations Layer"
+  },
+  "map": {
+    "type": "webmap",
+    "path": "./map.json"
+  },
+  "app": {
+    "template": "nova-app",
+    "preset": "map",
+    "showHeader": false,
+    "theme": {
+      "mode": "light",
+      "accent": "default"
+    },
+    "layout": {},
+    "widgets": [
+      {
+        "id": "default-home",
+        "type": "home",
+        "slot": "top-left",
+        "config": {}
+      },
+      {
+        "id": "default-scale-bar",
+        "type": "scaleBar",
+        "slot": "bottom-left",
+        "config": {}
+      }
+    ],
+    "interactions": [],
+    "behaviors": []
+  },
+  "nova": {
+    "basename": "9acff4e7-2a3c-4027-b8cb-20a5bc1819f1",
+    "presentationMode": "map",
+    "ownedGraphicsLayerIds": [],
+    "origin": {
+      "portalUrl": "https://www.arcgis.com",
+      "mapId": "output-2f95f32b-7777-4a88-b2de-13bccdfc60dc",
+      "mapName": "New Conversation",
+      "viewMode": "2d",
+      "capturedAt": "2026-10-28T07:39:48.192Z"
+    },
+    "sourceSelection": {
+      "mode": "all"
+    },
+    "unsupportedLayers": [],
+    "degradedFeatures": []
+  }
+}

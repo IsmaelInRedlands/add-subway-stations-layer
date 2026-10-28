@@ -1,0 +1,122 @@
+{
+  "operationalLayers": [
+    {
+      "id": "1a18185ed51-layer-2",
+      "title": "NYC Subway Stations",
+      "url": "https://services5.arcgis.com/GfwWNkhOj9bNBqoJ/arcgis/rest/services/SubwayStations_share/FeatureServer/0",
+      "itemId": "00715ec1d9d04b9da2f0da44add203e8",
+      "layerType": "ArcGISFeatureLayer",
+      "layerDefinition": {
+        "fieldConfigurations": [
+          {
+            "name": "STATIONID",
+            "fieldFormat": {
+              "type": "number",
+              "maximumFractionDigits": 6,
+              "minimumFractionDigits": 6,
+              "useGrouping": "never"
+            }
+          },
+          {
+            "name": "ONE_STR_EX",
+            "fieldFormat": {
+              "type": "number",
+              "useGrouping": "never"
+            }
+          },
+          {
+            "name": "POLICE_DIS",
+            "fieldFormat": {
+              "type": "number",
+              "useGrouping": "never"
+            }
+          },
+          {
+            "name": "PRECINCT",
+            "fieldFormat": {
+              "type": "number",
+              "useGrouping": "never"
+            }
+          },
+          {
+            "name": "Borough",
+            "fieldFormat": {
+              "type": "number",
+              "useGrouping": "never"
+            }
+          },
+          {
+            "name": "NYCT_DRAWING_DATE",
+            "fieldFormat": {
+              "type": "date-time",
+              "dateStyle": "short",
+              "hour12": "always",
+              "timeStyle": "short"
+            }
+          },
+          {
+            "name": "NYCT_REVISION_DATE",
+            "fieldFormat": {
+              "type": "date-time",
+              "dateStyle": "short",
+              "hour12": "always",
+              "timeStyle": "short"
+            }
+          },
+          {
+            "name": "ADA_Accessible",
+            "fieldFormat": {
+              "type": "number",
+              "useGrouping": "never"
+            }
+          }
+        ]
+      },
+      "blendMode": "normal"
+    }
+  ],
+  "baseMap": {
+    "baseMapLayers": [
+      {
+        "id": "world-hillshade-layer",
+        "showLegend": false,
+        "opacity": 1,
+        "title": "World Hillshade",
+        "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer",
+        "visibility": true,
+        "layerType": "ArcGISTiledMapServiceLayer"
+      },
+      {
+        "id": "topo-vector-base-layer",
+        "opacity": 1,
+        "title": "World Topo",
+        "visibility": true,
+        "layerType": "VectorTileLayer",
+        "styleUrl": "https://cdn.arcgis.com/sharing/rest/content/items/7dc6cea0b1764a1f9af2e679f642f0f5/resources/styles/root.json"
+      }
+    ],
+    "title": "Topographic"
+  },
+  "authoringApp": "ArcGIS API for JavaScript",
+  "authoringAppVersion": "5.1",
+  "spatialReference": {
+    "latestWkid": 3857,
+    "wkid": 102100
+  },
+  "timeZone": "system",
+  "version": "2.37",
+  "initialState": {
+    "viewpoint": {
+      "targetGeometry": {
+        "spatialReference": {
+          "latestWkid": 3857,
+          "wkid": 102100
+        },
+        "xmin": -8265852.8650293145,
+        "ymin": 4940739.962952045,
+        "xmax": -8210291.651325949,
+        "ymax": 4998077.339595461
+      }
+    }
+  }
+}
